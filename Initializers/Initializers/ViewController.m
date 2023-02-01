@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    Person *person = [[Person alloc] init];
+    
+    [person printName];
+    
+    Person *person2 = [[Person alloc] initWithFirstName:@"Uriel" lastName:@"Hernandez"];
+    [person2 printName];
 }
 
 
