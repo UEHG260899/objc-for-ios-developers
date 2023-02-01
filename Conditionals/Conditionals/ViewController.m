@@ -15,7 +15,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    BOOL amICool = YES;
+    BOOL areYouCool = NO;
+    
+    if (amICool) {
+        NSLog(@"Whip out the cool Ray Bans and hit the beach!");
+    }
 }
 
 
