@@ -14,6 +14,7 @@
 		A4CDD49A2989F54A002A8402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CDD4992989F54A002A8402 /* Assets.xcassets */; };
 		A4CDD49D2989F54A002A8402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CDD49B2989F54A002A8402 /* LaunchScreen.storyboard */; };
 		A4CDD4A02989F54A002A8402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CDD49F2989F54A002A8402 /* main.m */; };
+		A4CDD4A82989F56D002A8402 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CDD4A72989F56D002A8402 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		A4CDD49C2989F54A002A8402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4CDD49E2989F54A002A8402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4CDD49F2989F54A002A8402 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4CDD4A62989F56D002A8402 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A4CDD4A72989F56D002A8402 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 		A4CDD48C2989F549002A8402 /* Properties */ = {
 			isa = PBXGroup;
 			children = (
+				A4CDD4A62989F56D002A8402 /* Person.h */,
+				A4CDD4A72989F56D002A8402 /* Person.m */,
 				A4CDD48D2989F549002A8402 /* AppDelegate.h */,
 				A4CDD48E2989F549002A8402 /* AppDelegate.m */,
 				A4CDD4902989F549002A8402 /* SceneDelegate.h */,
@@ -148,6 +153,7 @@
 			files = (
 				A4CDD4952989F549002A8402 /* ViewController.m in Sources */,
 				A4CDD48F2989F549002A8402 /* AppDelegate.m in Sources */,
+				A4CDD4A82989F56D002A8402 /* Person.m in Sources */,
 				A4CDD4A02989F54A002A8402 /* main.m in Sources */,
 				A4CDD4922989F549002A8402 /* SceneDelegate.m in Sources */,
 			);
