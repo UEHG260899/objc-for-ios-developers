@@ -14,6 +14,7 @@
 		A4CDD4C22989FACD002A8402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CDD4C12989FACD002A8402 /* Assets.xcassets */; };
 		A4CDD4C52989FACD002A8402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CDD4C32989FACD002A8402 /* LaunchScreen.storyboard */; };
 		A4CDD4C82989FACD002A8402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CDD4C72989FACD002A8402 /* main.m */; };
+		A4CDD4D02989FB04002A8402 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CDD4CF2989FB04002A8402 /* Vehicle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		A4CDD4C42989FACD002A8402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4CDD4C62989FACD002A8402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4CDD4C72989FACD002A8402 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4CDD4CE2989FB04002A8402 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		A4CDD4CF2989FB04002A8402 /* Vehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 		A4CDD4B42989FACC002A8402 /* Getters */ = {
 			isa = PBXGroup;
 			children = (
+				A4CDD4CE2989FB04002A8402 /* Vehicle.h */,
+				A4CDD4CF2989FB04002A8402 /* Vehicle.m */,
 				A4CDD4B52989FACC002A8402 /* AppDelegate.h */,
 				A4CDD4B62989FACC002A8402 /* AppDelegate.m */,
 				A4CDD4B82989FACC002A8402 /* SceneDelegate.h */,
@@ -150,6 +155,7 @@
 				A4CDD4B72989FACC002A8402 /* AppDelegate.m in Sources */,
 				A4CDD4C82989FACD002A8402 /* main.m in Sources */,
 				A4CDD4BA2989FACC002A8402 /* SceneDelegate.m in Sources */,
+				A4CDD4D02989FB04002A8402 /* Vehicle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
